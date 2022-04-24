@@ -1,0 +1,16 @@
+module Hazard_Detect_Unit(EX_Rtaddr, ID_Rsaddr, ID_Rtaddr, EX_MemRead, pcWrite, isBubble, IF2ID_write);
+
+input      [5-1:0] EX_Rtaddr;
+input      [5-1:0] ID_Rsaddr;
+input      [5-1:0] ID_Rtaddr;
+input       EX_MemRead;
+
+output wire pcWrite;
+output wire isBubble;
+output wire IF2ID_write;
+//10for EX hazard 01 for MEM hazard
+assign pcWrite=(EX_MemRead &&(EX_Rtaddr==ID_Rsaddr || EX_Rtaddr==ID_Rtaddr))?0:1;
+assign isBubble=(EX_MemRead &&(EX_Rtaddr==ID_Rsaddr || EX_Rtaddr==ID_Rtaddr)?0:1;
+assign IF2ID_write=(EX_MemRead &&(EX_Rtaddr==ID_Rsaddr || EX_Rtaddr==ID_Rtaddr)?0:1;
+
+endmodule

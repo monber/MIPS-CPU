@@ -1,0 +1,369 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/CA/CO_LAB2_2020/CO_LAB2_2020
+T_opt
+!s110 1650090557
+VJRIoecYRkglD63=?Hge:G2
+04 8 4 work Reg_File fast 0
+=1-d8cb8a7efae7-625a623d-87-3934
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5;63
+R0
+T_opt1
+!s110 1650091148
+Vj>MngnA>iXUU51Z?SWX]G0
+04 9 4 work TestBench fast 0
+=1-d8cb8a7efae7-625a648b-26e-2768
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1650075763
+V[[8Rbl3Qd2mWQDe^[X1od0
+04 11 4 work Data_Memory fast 0
+=1-d8cb8a7efae7-625a2872-13d-11e8
+R1
+R2
+n@_opt2
+R3
+R0
+vAdder
+Z4 !s110 1650091133
+!i10b 1
+!s100 <88jg258HRY`h2dC76Eej3
+I5<BWc8QYIBnRWZXo9KUib3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/CA/CO_LAB3/CO_LAB3_2020
+w1636686423
+8D:/CA/CO_LAB3/CO_LAB3_2020/Adder.v
+FD:/CA/CO_LAB3/CO_LAB3_2020/Adder.v
+L0 1
+Z7 OL;L;10.5;63
+r1
+!s85 0
+31
+Z8 !s108 1650091133.000000
+!s107 D:/CA/CO_LAB3/CO_LAB3_2020/Adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/CA/CO_LAB3/CO_LAB3_2020/Adder.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@adder
+vALU
+R4
+!i10b 1
+!s100 N8KzzGGjDza_1W3k57Gmg3
+IQ:L8cTD>glF9LTbg=gk8N3
+R5
+R6
+w1650075309
+8D:\CA\CO_LAB3\CO_LAB3_2020\ALU.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\ALU.v
+L0 8
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\ALU.v|
+!i113 0
+R9
+R2
+n@a@l@u
+vALU_Ctrl
+R4
+!i10b 1
+!s100 bIcZW3?lMbhm3ALz35aEW2
+IkL1?PJ19Y<gHN_@@b3hQe0
+R5
+R6
+w1650087147
+8D:\CA\CO_LAB3\CO_LAB3_2020\ALU_Ctrl.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\ALU_Ctrl.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\ALU_Ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\ALU_Ctrl.v|
+!i113 0
+R9
+R2
+n@a@l@u_@ctrl
+vData_Memory
+R4
+!i10b 1
+!s100 Ae?]^AS`C`IbNamClSRo91
+I@WWbI0CLDN7AmB@eTH`Tz0
+R5
+R6
+w1635990498
+8D:\CA\CO_LAB3\CO_LAB3_2020\Data_Memory.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\Data_Memory.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\Data_Memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\Data_Memory.v|
+!i113 0
+R9
+R2
+n@data_@memory
+vDecoder
+R4
+!i10b 1
+!s100 G^MYLl700D?^>d<d?glEg2
+IRPA:<6Izgg9YU@bb`Je9n1
+R5
+R6
+w1650085582
+8D:\CA\CO_LAB3\CO_LAB3_2020\Decoder.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\Decoder.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\Decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\Decoder.v|
+!i113 0
+R9
+R2
+n@decoder
+vInstr_Memory
+Z10 !s110 1650091134
+!i10b 1
+!s100 Q3WNoL]`J0?MSjJCQWUK51
+IdE5C8el_L@O;]jdFaKM4j1
+R5
+R6
+Z11 w1635990488
+8D:\CA\CO_LAB3\CO_LAB3_2020\Instr_Memory.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\Instr_Memory.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\Instr_Memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\Instr_Memory.v|
+!i113 0
+R9
+R2
+n@instr_@memory
+vMux2to1
+R10
+!i10b 1
+!s100 XTXMz^ID9I>fIeBUmEoGD3
+I6IJIDOS2AaR8@mY;mgkCg2
+R5
+R6
+w1636640522
+8D:\CA\CO_LAB3\CO_LAB3_2020\Mux2to1.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\Mux2to1.v
+L0 1
+R7
+r1
+!s85 0
+31
+Z12 !s108 1650091134.000000
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\Mux2to1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\Mux2to1.v|
+!i113 0
+R9
+R2
+n@mux2to1
+vMux3to1
+R10
+!i10b 1
+!s100 EaaPc=gj2nULbWSbXMP6N3
+IHz=Az1k;m>cCVB`b?;:o83
+R5
+R6
+w1636686168
+8D:\CA\CO_LAB3\CO_LAB3_2020\Mux3to1.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\Mux3to1.v
+L0 1
+R7
+r1
+!s85 0
+31
+R12
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\Mux3to1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\Mux3to1.v|
+!i113 0
+R9
+R2
+n@mux3to1
+vProgram_Counter
+R10
+!i10b 1
+!s100 n:K]j^TXMi2_Xa3I:mDbJ2
+IK5[[Q6;nnS73nTk=F5FDH0
+R5
+R6
+R11
+8D:\CA\CO_LAB3\CO_LAB3_2020\Program_Counter.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\Program_Counter.v
+L0 1
+R7
+r1
+!s85 0
+31
+R12
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\Program_Counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\Program_Counter.v|
+!i113 0
+R9
+R2
+n@program_@counter
+vReg_File
+R10
+!i10b 1
+!s100 :3@>?_i]DGTIc^2Jmfh]z0
+Iga:<A<PWd_86[mzcWO9j]0
+R5
+R6
+w1650090952
+8D:\CA\CO_LAB3\CO_LAB3_2020\Reg_File.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\Reg_File.v
+L0 1
+R7
+r1
+!s85 0
+31
+R12
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\Reg_File.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\Reg_File.v|
+!i113 0
+R9
+R2
+n@reg_@file
+vShifter
+R10
+!i10b 1
+!s100 oXV6i>hRo9>CeMdWDfhlD2
+IYZ0@NB41UaLQhF[NzMkUn2
+R5
+R6
+w1636686037
+8D:/CA/CO_LAB3/CO_LAB3_2020/Shifter.v
+FD:/CA/CO_LAB3/CO_LAB3_2020/Shifter.v
+L0 1
+R7
+r1
+!s85 0
+31
+R12
+!s107 D:/CA/CO_LAB3/CO_LAB3_2020/Shifter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/CA/CO_LAB3/CO_LAB3_2020/Shifter.v|
+!i113 0
+R9
+R2
+n@shifter
+vSign_Extend
+R10
+!i10b 1
+!s100 S[9GDK7U25Ze[9oz8CB>K1
+I2AGN=AdB2in:FzDVZGDke3
+R5
+R6
+w1637065078
+8D:\CA\CO_LAB3\CO_LAB3_2020\Sign_Extend.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\Sign_Extend.v
+L0 1
+R7
+r1
+!s85 0
+31
+R12
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\Sign_Extend.v|
+!i113 0
+R9
+R2
+n@sign_@extend
+vSimple_Single_CPU
+R10
+!i10b 1
+!s100 VSN6zW9XC_[Q<mnPk[e9=2
+Igl`=1`c_<3J^0UzZ:>3ij2
+R5
+R6
+w1650090313
+8D:\CA\CO_LAB3\CO_LAB3_2020\Simple_Single_CPU.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\Simple_Single_CPU.v
+L0 2
+R7
+r1
+!s85 0
+31
+R12
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\Simple_Single_CPU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\Simple_Single_CPU.v|
+!i113 0
+R9
+R2
+n@simple_@single_@c@p@u
+vTestBench
+R10
+!i10b 1
+!s100 <62US4UnWgiOW0O`nMU`o3
+Im_I=ioC8]aU:l]3MJ4RWA2
+R5
+R6
+w1650091110
+8D:\CA\CO_LAB3\CO_LAB3_2020\TestBench.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\TestBench.v
+L0 5
+R7
+r1
+!s85 0
+31
+R12
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\TestBench.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\TestBench.v|
+!i113 0
+R9
+R2
+n@test@bench
+vZero_Filled
+R4
+!i10b 1
+!s100 SRPhf<mDdai4:4^C_a`4^3
+IaGY@<N8?il0e6C_n<IZf`1
+R5
+R6
+w1650087380
+8D:\CA\CO_LAB3\CO_LAB3_2020\Zero_Filled.v
+FD:\CA\CO_LAB3\CO_LAB3_2020\Zero_Filled.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\CA\CO_LAB3\CO_LAB3_2020\Zero_Filled.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\CA\CO_LAB3\CO_LAB3_2020\Zero_Filled.v|
+!i113 0
+R9
+R2
+n@zero_@filled
